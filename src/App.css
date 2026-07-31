@@ -1,32 +1,21 @@
+.card {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
+  background-color: white;
+  color: rgb(23, 136, 13);
+}
 
 body {
-font-style: italic;
-background-color: rgb(19, 35, 51);
-color: black;
+  background-color: lightblue;
+  margin: 0;
 }
 
-.app {
-  margin: 1rem;
-  background-color:rgb(234, 239, 243);
-  padding: 10px;
-  text-align: center;
-  border-radius: 10px;
-  padding: 20px;
+h1 {
+  color: magenta;
 }
 
-ul {
-text-align: center;
-list-style-position: inside;
-list-style-type: square; /* Filled squares */
-}
-
-li {
-  padding: 10px;
-  margin: 8px;
-  border-radius: 5px;
-}
-
-li:hover {
-background-color:rgb(13, 151, 59);
-cursor: pointer;
+h2 {
+  color: magenta;
 }

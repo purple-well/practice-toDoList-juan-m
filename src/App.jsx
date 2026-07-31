@@ -1,14 +1,12 @@
+import ProfileContainer from "./components/ProfileContainer";
+import "./App.css";
 
-import './App.css'
-import Header from "./components/Header";
-import ToDoList from "./components/ToDoList";
-
-const App = () => {
+function App() {
     return (
-        <div className="app">
-            <Header />
-            <ToDoList />
-        </div>
+        <>
+            <ProfileContainer />
+        </>
     );
 }
-export default App
+
+export default App;
